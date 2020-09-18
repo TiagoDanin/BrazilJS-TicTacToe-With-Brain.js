@@ -12,7 +12,7 @@
     "nodemon": "^2.0.4"
   },
   "nodemonConfig": {
-		"exec": "npm start",
-		"watch": []
-	}
+    "exec": "npm start",
+    "watch": []
+  }
 }

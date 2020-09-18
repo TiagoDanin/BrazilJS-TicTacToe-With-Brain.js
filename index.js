@@ -23,9 +23,7 @@ const winingPosibles = [
 
 const sleep = (timeMs) => new Promise(resolve => setTimeout(resolve, timeMs));
 
-const cleanConsole = () => console.log('\n\n\n');
-
-// const cleanConsole = () => process.stdout.write('\033c');
+const cleanConsole = () => process.stdout.write('\033c');
 
 const posibleChoices = () => table.filter(item => typeof item === 'number').map(item => item.toString());
 
